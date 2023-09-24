@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #151719;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 109rem;
+    align-items: center;
+    padding: 2rem;
+}
+/* logo css */
+.logo{
+    color: #5D5DFF;
+    font-size: 1.5rem;
+}
+/* LINK CSS */
+.item{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+li a:hover{
+    color: cadetblue;
+}
+
+/* navbar button css */
+.button{
+    display: flex;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+.nav_btn{
+    width: 5rem;
+    height: 2.7rem;
+   
+    font-size: 1.3rem;
+}
+.btn1{
+    border: none;
+    background-color:#151719 ; 
+    color: #5D5DFF;
+}
+.btn2{
+    background-color: #5D5DFF;
+    color: #ffff;
+    width: 7rem;
+}
+.nav_btn:hover{
+    color: cadetblue;
+}
+
+/* main section css */
+main{
+    padding-top: 8rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    color: #ffff;
+}
+main h1{
+    font-size: 5rem;
+}
+main p{
+    font-size: 1.2rem;
+}
+.button1{
+    display: flex;
+    align-self: center;
+    gap: 3rem;
+}
+.main_but{
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.btn3{
+    background-color:#5D5DFF ;
+}
+.btn4{
+    background-color: #151719;
+}
+.main_but:hover{
+    color: cadetblue;
+}
+
+/* SECTION CSS */
+section{
+    padding-top: 2rem;
+}
+section img{
+    align-self: center;
+    width: 90rem;
+    height: 40rem;
+}
+/* Section-2 */
+.section2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2h1{
+    font-size: 5rem;
+}
+.secpara{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.sec2logo{
+    padding-top: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+}
+.sec2logo img{
+    border-radius: 50%;
+    width: 10rem;
+    height: 6rem;
+}
+.sec2con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem ;
+}
+.sec2con p{
+    text-align: center;
+}
+/* SECTION-3 */
+.section3{
+    display: flex;
+}
+.sec3left{
+    margin-left: 3rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1.2rem;
+    width: 40rem;
+}
+.sec3left h1{
+    font-size: 3rem;
+}
+.sec3left p{
+    font-size: 1rem;
+}
+.sec3leftpara{
+    font-size: 3rem;
+    font-style: italic;
+    color: #5D5DFF;
+}
+.btn5{
+    width: 25rem;
+    height: 3rem;
+    background-color:#5D5DFF;
+    color: white;
+    font-size: 2rem;
+}
+.btn5:hover{
+    color: cadetblue;
+}
+.sec3right img{
+    margin-left: 8rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+/* section-4*/
+.sec4con{
+      padding-top: 2rem;
+      width: 80rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.sec4con h1{
+    color: white;
+    font-size: 4rem;
+}
+.sec4con h2{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+.sec4p1{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sec4p2{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.link{
+    padding-top: 3rem;
+    display: flex;
+    color: white;
+    gap: 3rem;
+}
+.links{
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #151719;
+    position: relative;
+}
+.links p{
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+.links:hover{
+    color: cadetblue;
+}
+/* FOOT-CON CSS */
+.foot-con{
+    height: 30rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.left-foot-con{
+    width: 45rem;
+    color: white;
+    background-color: #25282C;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+  
+}
+.footcon{ 
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    width: 35rem; 
+    gap: 1rem;
+}
+.left-foot-con h1{
+    font-size: 2rem;
+}
+.left-foot-con p{
+    font-weight: 400;
+    color: #8CA9B4;
+    font-size: 1.2rem;
+}
+.left-foot-con button{
+    background-color: #5D5DFF;
+    width: 10rem;
+    color: white;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.left-foot-con button:hover{
+    color: cadetblue;
+}
+.right-foot-con{ 
+    border: 2px solid black;
+    width: 45rem;
+    background-image: url(./IMAGE/tabphoto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* SECTION-5 CSS */
+.section5{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.sec5con{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.sec5con h1{
+   font-size: 3rem;
+}
+.sec5con h2{
+    text-align: center;
+}
+.sec5parent{
+    display: flex;
+    width: 80rem;
+    gap: 7rem;
+}
+.secimg{
+   background-image: url(./IMAGE/img1.png);
+   background-position: center;
+   background-size: cover;
+   height: 44rem;
+   width: 40rem;
+   margin-top: 3rem;
+}
+.sec5child{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    color: white;
+    gap: 2rem;
+}
+.sec5childpara{
+    color: #5D5DFF;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.sec5child h1{
+    font-size: 2rem;
+}
+.sec5chidpara2{
+  font-size: 1.5rem;
+}
+
+/* SECTION-6 */
+.section6{
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.sec6content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.sec6content h2{
+    text-align: center;
+}
+.sec6image{
+    height: 30rem;
+    display: flex;
+    gap: 2rem;
+}
+.sec6con{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 32rem;
+    height: 35rem;
+}
+.sec6con img{
+    width: 30rem;
+}
+.sec6btn{
+    display: flex;
+    gap: 2rem;
+}
+.sec6btn1{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+    color: white;
+}
+.sec6btn2{
+    width: 10rem;
+    height: 2rem;   
+    border-radius: 10rem;
+    font-size: 1rem;
+    color: white;
+}
+.sixbtn1{
+    background-color: #5D5DFF;
+}
+.sixbtn2{
+   background-color: #3B82F6;
+}
+.sixbtn3{
+   background-color: #EC4899;
+}
+.sixbtn4{
+    background-color: #3B82F6;
+}
+.sixbtn5{
+    background-color: #5D5DFF;
+}
+.sixbtn6{
+    background-color: #14B8A6;
+    width: 15rem;
+}
+.sec6btn1:hover{
+    color: cadetblue;
+}
+.sec6btn2:hover{
+    color: cadetblue;
+}
+.sec6con h1{
+    color: white;
+}
+.sec6con p{
+   color: #8CA9B4;
+   font-size: 1.5rem;
+}
+.logo6{
+    display: flex;
+    gap: 2rem;
+}
+.logo6 h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.logo6 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+}
